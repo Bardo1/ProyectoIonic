@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { YoutubePage } from '../pages/youtube/youtube';
 import { PruebaPage } from '../pages/prueba/prueba';
+import { MasinfoPage } from '../pages/masinfo/masinfo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,6 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     YoutubePage,
     PruebaPage,
+    MasinfoPage,
     TabsPage
   ],
   imports: [
@@ -35,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     YoutubePage,
     PruebaPage,
+    MasinfoPage,
     TabsPage
   ],
   providers: [
